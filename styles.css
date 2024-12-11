@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+ul, li, a{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.section{
+    min-height: 100px;
+}
+
+.one{
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.two{
+    background-color: white;
+    color:#1F2937
+}
+
+.three{
+    background-color: #e5e7eb;
+    color:#1F2937
+}
+
+.four{
+    background-color: white;
+    color:#1F2937
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlinks{
+
+}
