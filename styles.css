@@ -62,7 +62,7 @@ ul, li, a{
 
 .four{
     background-color: white;
-    color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,16 +119,23 @@ img{
 h1{
     font-size: 36px;
 }
-.dialogbox{
-    display: flex;
+ .backdrop{
     background-color: #3882f6;
-    padding: 50px 250px 50px 100px;
+    display: flex;
     border-radius: 15px;
-    color: #F9FAF8;
+    padding: 25px 50px;
+    justify-content: space-between;
+    gap: 45px;
 }
 
+span{
+    align-content: center;
+}
 button{
-    border: none;
-    text-align: center;
-    text-decoration: none;
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
 }
